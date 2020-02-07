@@ -6,6 +6,7 @@ class Cat
   
   def meow.new do |meow| 
     puts("meow!")
+   end 
   end
   
 end 
