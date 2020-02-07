@@ -2,11 +2,10 @@ class Cat
   
   attr_accessor :name
   
-  attr_reader :meow 
+  attr_accessor :meow 
   
   def meow = meow
     puts "meow!"
-    @Cat = meow
   end
   
 end 
