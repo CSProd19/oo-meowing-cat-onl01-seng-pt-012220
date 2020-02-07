@@ -4,8 +4,9 @@ class Cat
   
   attr_reader :meow 
   
-  def meow 
-    puts("meow!")
+  def meow = meow
+    puts "meow!"
+    @Cat = meow
   end
   
 end 
